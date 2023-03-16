@@ -3,7 +3,7 @@ import mealsImage from '../../assets/meals.jpg';
 import classes from './Header.module.css';
 
 
-const Header = props =>{
+const Header =(props)=>{
   retrun (
   <Fragment>
    <header>
@@ -16,3 +16,5 @@ const Header = props =>{
   </Fragment>
   )
 };
+
+export default Header;
