@@ -1,5 +1,6 @@
 import React,  { Fragment } from 'react';
 import HeaderCartButton from './HeaderCartButton';
+
 import classes from './Header.module.css';
 
 
@@ -11,7 +12,7 @@ const Header = (props) => {
         <HeaderCartButton />
       </header>
       <div className={classes['main-image']}>
-        <img src='assets/meals.jpg' alt='A table full of delicious food!' />
+        <img src={require('assets/meals.jpg')} alt='A table full of delicious food!' />
       </div>
     </Fragment>
   );
