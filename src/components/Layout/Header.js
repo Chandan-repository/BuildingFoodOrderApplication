@@ -12,7 +12,7 @@ const Header = (props) => {
         <HeaderCartButton onClick={props.onShowCart}/>
       </header>
       <div className={classes['main-image']}>
-        <img src='https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?size=626&ext=jpg' alt='A table full of delicious food!' />
+        <img src='https://img.freepik.com/free-photo/top-view-bowls-with-indian-food_23-2148723454.jpg?size=626&ext=jpg' alt='A table full of delicious food!' />
       </div>
     </Fragment>
   );
