@@ -28,7 +28,15 @@ const DUMMY_MEALS = [
     description: 'Healthy...and green...',
     price: 18.99,
   },
+
+  {
+    id: 'm4',
+    name: 'Red Bowl',
+    description: 'Healthy...and green...',
+    price: 19.99,
+  }
 ];
+
 
 const AvailableMeals = () => {
   const mealsList = DUMMY_MEALS.map( (meal) => (
